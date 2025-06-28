@@ -14,12 +14,14 @@ class Main {
      * Example:
      * Input:  ['a', 'b', 'c', 'd']
      * Steps:
-     *   swap(0, 3) → ['d', 'b', 'c', 'a']
      *   swap(1, 2) → ['d', 'c', 'b', 'a']
+     *   swap(0, 3) → ['d', 'b', 'c', 'a']
      *   ind = 2 == N/2 → recursion stops
      *
      * Time Complexity: O(N) – where N is the number of characters
      * Space Complexity: O(N) – recursion stack (due to function calls)
+     * 
+     * https://leetcode.com/problems/reverse-string/
      */
 
     public static char[] reverse(char arr[], int ind) {
