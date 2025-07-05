@@ -1,6 +1,6 @@
 import java.util.*;
 
-class CombinationSum {
+class CombinationSumOne {
 
     /**
      * Method: solve(int[] arr, int target, int ind, List<Integer> cur, List<List<Integer>> res)
