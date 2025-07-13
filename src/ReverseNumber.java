@@ -1,6 +1,6 @@
 import java.util.*;
 
-class ReverseNumberpublic  {
+class ReverseNumber  {
 
     /*
      * This method reverses a number recursively.

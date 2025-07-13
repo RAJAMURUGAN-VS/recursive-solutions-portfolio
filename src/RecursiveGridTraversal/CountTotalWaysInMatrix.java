@@ -1,3 +1,4 @@
+package RecursiveGridTraversal;
 import java.util.*;
 
 class CountTotalWaysInMatrix {
@@ -30,7 +31,7 @@ class CountTotalWaysInMatrix {
 
         if(r==R-1 || c==C-1)
             return 1;
-
+        
         return findTotalWays(r+1,c)+findTotalWays(r,c+1);
     }
 
