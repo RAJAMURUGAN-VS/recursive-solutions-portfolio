@@ -1,3 +1,5 @@
+package RecursiveGridTraversal.NQueens;
+
 import java.util.*;
 
 class NQueensSingleSolution {
