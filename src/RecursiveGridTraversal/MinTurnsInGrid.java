@@ -82,13 +82,11 @@ class MinTurnsInGrid {
             minCount=Math.min(minCount,count);
             return;
         }
-        
-
+    
         grid[sr][sc]=2;
 
         int dx[]={-1,0,1,0};
         int dy[]={0,1,0,-1};
-
 
         for(int i=0;i<4;i++) {
             int r=sr+dx[i];
@@ -120,5 +118,7 @@ class MinTurnsInGrid {
         solve(sr,sc,dr,dc,-1,grid,0);
 
         System.out.print(minCount);
+
+        scan.close();
     }
 }
