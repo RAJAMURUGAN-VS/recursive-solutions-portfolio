@@ -1,4 +1,4 @@
-package RecursiveGridTraversal;
+package RecursiveGridTraversal.Knights;
 import java.util.*;
 
 class KnightsTour {
