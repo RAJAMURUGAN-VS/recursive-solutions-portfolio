@@ -40,11 +40,13 @@ class CombinationSumOne {
 
     public static void solve(int arr[],int target,int ind,List<Integer> cur,List<List<Integer>> res) {
 
-        if(ind==arr.length) {
-            if(target==0)
-                res.add(new ArrayList<Integer>(cur));
-            return;
+        if(target==0) {
+          res.add(new ArrayList<Integer>(cur));
+          return;
         }
+
+        if(ind==arr.length) 
+            return;
 
         //pick (pruning)
         if(arr[ind]<=target) {

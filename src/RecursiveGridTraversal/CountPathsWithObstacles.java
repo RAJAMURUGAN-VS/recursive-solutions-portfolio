@@ -34,6 +34,10 @@ class CountPathsWithObstacles {
      * Output: 2
      */
 
+    1 1 0
+    0 0 0
+    0 0 
+
     public static int solve(int r,int c,int R,int C,int grid[][]) {
 
         if(r==R-1 && c==C-1)
